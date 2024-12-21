@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{F5F9A18C-F0E8-4DCF-86EC-FA2602C86937}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>LethalCompanySavesFinder</RootNamespace>
-    <AssemblyName>LethalCompanySavesFinder</AssemblyName>
+    <RootNamespace>LCSaveFC</RootNamespace>
+    <AssemblyName>LCSaveF-C</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -80,6 +80,7 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="LanguageTexts.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
@@ -96,6 +97,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="LethalCompanySavesFinder_TemporaryKey.pfx" />
     <None Include="Properties\Settings.settings">
